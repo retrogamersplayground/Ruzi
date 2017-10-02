@@ -303,3 +303,142 @@
 [24-Sep-2017 03:59:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/admin/action.php on line 40
 [24-Sep-2017 03:59:32 UTC] PHP Stack trace:
 [24-Sep-2017 03:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/action.php:0
+[02-Oct-2017 03:11:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/admin/index.php on line 215
+[02-Oct-2017 04:31:43 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/driver_system/index.php on line 37
+[02-Oct-2017 06:00:25 UTC] PHP Warning:  include_once(danville_orders.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/driver_system/index.php on line 40
+[02-Oct-2017 06:00:25 UTC] PHP Stack trace:
+[02-Oct-2017 06:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:00:25 UTC] PHP Warning:  include_once(): Failed opening 'danville_orders.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/driver_system/index.php on line 40
+[02-Oct-2017 06:00:25 UTC] PHP Stack trace:
+[02-Oct-2017 06:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:00:57 UTC] PHP Warning:  include_once(danville_orders.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/driver_system/index.php on line 40
+[02-Oct-2017 06:00:57 UTC] PHP Stack trace:
+[02-Oct-2017 06:00:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:00:57 UTC] PHP Warning:  include_once(): Failed opening 'danville_orders.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/driver_system/index.php on line 40
+[02-Oct-2017 06:00:57 UTC] PHP Stack trace:
+[02-Oct-2017 06:00:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:25:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:25:26 UTC] PHP Stack trace:
+[02-Oct-2017 06:25:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:25:26 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:25:26 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:25:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:25:26 UTC] PHP Stack trace:
+[02-Oct-2017 06:25:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:25:26 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:25:26 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 06:27:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:27:44 UTC] PHP Stack trace:
+[02-Oct-2017 06:27:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:27:44 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:27:44 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:27:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:27:44 UTC] PHP Stack trace:
+[02-Oct-2017 06:27:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:27:44 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:27:44 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 06:27:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:27:46 UTC] PHP Stack trace:
+[02-Oct-2017 06:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:27:46 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:27:46 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:27:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:27:46 UTC] PHP Stack trace:
+[02-Oct-2017 06:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:27:46 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:27:46 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 06:28:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:28:47 UTC] PHP Stack trace:
+[02-Oct-2017 06:28:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:28:47 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:28:47 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:28:47 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:28:47 UTC] PHP Stack trace:
+[02-Oct-2017 06:28:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:28:47 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:28:47 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 06:31:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:31:05 UTC] PHP Stack trace:
+[02-Oct-2017 06:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:31:05 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:31:05 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:31:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:31:05 UTC] PHP Stack trace:
+[02-Oct-2017 06:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:31:05 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:31:05 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 06:32:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:32:33 UTC] PHP Stack trace:
+[02-Oct-2017 06:32:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:32:33 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:32:33 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:32:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:32:33 UTC] PHP Stack trace:
+[02-Oct-2017 06:32:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:32:33 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:32:33 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 06:34:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:34:24 UTC] PHP Stack trace:
+[02-Oct-2017 06:34:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:34:24 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:34:24 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:34:24 UTC] PHP Stack trace:
+[02-Oct-2017 06:34:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:34:24 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:34:24 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 06:34:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:34:48 UTC] PHP Stack trace:
+[02-Oct-2017 06:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:34:48 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:34:48 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:34:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:34:48 UTC] PHP Stack trace:
+[02-Oct-2017 06:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 06:34:48 UTC] PHP   2. include_once() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 06:34:48 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 06:35:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:35:12 UTC] PHP Stack trace:
+[02-Oct-2017 06:35:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/danville_orders.php:0
+[02-Oct-2017 06:35:12 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:35:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:35:12 UTC] PHP Stack trace:
+[02-Oct-2017 06:35:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/danville_orders.php:0
+[02-Oct-2017 06:35:12 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 06:36:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 3
+[02-Oct-2017 06:36:39 UTC] PHP Stack trace:
+[02-Oct-2017 06:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/danville_orders.php:0
+[02-Oct-2017 06:36:39 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/driver_system/danville_orders.php:3
+[02-Oct-2017 06:36:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/danville_orders.php on line 4
+[02-Oct-2017 06:36:39 UTC] PHP Stack trace:
+[02-Oct-2017 06:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/danville_orders.php:0
+[02-Oct-2017 06:36:39 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/danville_orders.php:4
+[02-Oct-2017 07:15:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/driver_system/index.php on line 40
+[02-Oct-2017 07:15:24 UTC] PHP Stack trace:
+[02-Oct-2017 07:15:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 07:15:24 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/driver_system/index.php:40
+[02-Oct-2017 07:15:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/driver_system/index.php on line 41
+[02-Oct-2017 07:15:24 UTC] PHP Stack trace:
+[02-Oct-2017 07:15:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 07:15:24 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/driver_system/index.php:41
+[02-Oct-2017 07:28:47 UTC] PHP Warning:  include_once(stanford_orders.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/driver_system/index.php on line 47
+[02-Oct-2017 07:28:47 UTC] PHP Stack trace:
+[02-Oct-2017 07:28:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 07:28:47 UTC] PHP Warning:  include_once(): Failed opening 'stanford_orders.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/driver_system/index.php on line 47
+[02-Oct-2017 07:28:47 UTC] PHP Stack trace:
+[02-Oct-2017 07:28:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 08:04:44 UTC] PHP Fatal error:  Call to undefined function include_one() in /home/ubuntu/workspace/driver_system/index.php on line 42
+[02-Oct-2017 08:04:44 UTC] PHP Stack trace:
+[02-Oct-2017 08:04:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 08:05:22 UTC] PHP Warning:  include_once(active_orders): failed to open stream: No such file or directory in /home/ubuntu/workspace/driver_system/index.php on line 42
+[02-Oct-2017 08:05:22 UTC] PHP Stack trace:
+[02-Oct-2017 08:05:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 08:05:22 UTC] PHP Warning:  include_once(): Failed opening 'active_orders' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/driver_system/index.php on line 42
+[02-Oct-2017 08:05:22 UTC] PHP Stack trace:
+[02-Oct-2017 08:05:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 08:07:48 UTC] PHP Warning:  include_once(active_orders): failed to open stream: No such file or directory in /home/ubuntu/workspace/driver_system/index.php on line 42
+[02-Oct-2017 08:07:48 UTC] PHP Stack trace:
+[02-Oct-2017 08:07:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0
+[02-Oct-2017 08:07:48 UTC] PHP Warning:  include_once(): Failed opening 'active_orders' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/driver_system/index.php on line 42
+[02-Oct-2017 08:07:48 UTC] PHP Stack trace:
+[02-Oct-2017 08:07:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/driver_system/index.php:0

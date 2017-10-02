@@ -11,8 +11,10 @@
     .box{
     display:inline-block; /* so the children on the same line */
     height: auto;
-    width: 24%;
+    width: 55%;
     margin-bottom:25px;
+    
+    
         }
 
     .box img{
@@ -85,7 +87,7 @@ Phone:<?php echo $row["phone"];?></br>
 Phone Order:<?php echo $row["porder"];?></br>
 Online Order:<?php echo $row["oorder"];?></br>
 
-<a href="memberpage.php?vID=<?php echo $row["vID"]; ?>">DELETE THIS VENDOR</a>
+<a href="index.php?vID=<?php echo $row["vID"]; ?>">DELETE THIS VENDOR</a>
   </div> <!--box-->       
 
 
@@ -105,7 +107,7 @@ $vID = $_GET['vID'];
         $message = "ERROR: Could not able to execute $sql. " . mysqli_error($link);
     }
     
-    header('location: https://ide.c9.io/neilfloyd/login_admin-cloned/memberpage.php?message=' . $message);
+    header('location: https://ide.c9.io/neilfloyd/login_admin-cloned/driver_system/index.php?message=' . $message);
 }
 
 if(isset($_GET['message'])){

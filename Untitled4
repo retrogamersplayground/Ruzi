@@ -1,0 +1,9 @@
+ $res=mysqli_query($link, "SELECT * FROM user_details WHERE city = 'Danville'");
+while($row=mysqli_fetch_array($res)){
+     include_once("danville_orders.php");}
+    
+      $res=mysqli_query($link, "SELECT * FROM user_details WHERE city = 'stanford'");
+      
+while($row=mysqli_fetch_array($res)){
+     include_once("stanford_orders.php");
+     

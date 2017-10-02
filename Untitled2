@@ -1,0 +1,31 @@
+<div class="container">
+<?php
+$res=mysqli_query($link, "SELECT * FROM activeOrders WHERE orderStatus = 'active'");
+while($row=mysqli_fetch_array($res))
+
+{
+?>
+ 
+
+
+
+  <div class="box">
+
+
+
+order id:<?php echo $row["order_id"];?></br>
+
+City:<?php echo $row["city"];?></br>
+
+Order Status:<?php echo $row["orderStatus"];?></br>
+
+
+
+  </div> <!--box-->       
+
+<?php
+}
+
+?>
+
+</div>

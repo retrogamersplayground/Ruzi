@@ -1,3 +1,4 @@
+<?php include_once("mysqli_connection.php");?>
 <?php
 //index.php
 include('database_connection.php');
@@ -11,15 +12,22 @@ if(!isset($_SESSION["type"]))
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Ruzi Drivers</title></title>
+  <title>Ruzi </title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+ 
+ 
+ 
+ 
  </head>
+ 
  <body>
   <br />
   <div class="container">
-   <h2 align="center">Ruzi Drivers</h2>
+   <h2 align="center">Ruzi </h2>
    <br />
    <div align="right">
     <a href="logout.php">Logout</a>
@@ -29,19 +37,42 @@ if(!isset($_SESSION["type"]))
    
    if($_SESSION["type"] =="user")
    {
-    echo '<div align="center"><h2>Hi... Welcome to Ruzi Drivers Page! </h2></div>'; 
-   
+    
+   include_once("active_orders.php");
+  
+
    }
-   else
+   else if($_SESSION["type"] =="master")
    {
    ?>
+   
+   
+   
+   
+    <hr>
+</br>
+
+
+<?php include_once("add_vendor.php");?>
+</br>
+<hr>
+</br>
+<?php include_once("display_vendor2.php");?>
+<hr>
+</br>
+<h2>Ruzi Drivers Online</h2>
    <div class="panel panel-default">
     <div class="panel-heading">Online Drive Details</div>
     <div id="user_login_status" class="panel-body">
 
     </div>
    </div>
+   
+   
    <?php
+   }
+   else {
+   header("location: login.php");
    }
    ?>
   </div>
@@ -96,7 +127,22 @@ function fetch_user_login_data()
 }
 <?php
 }
+
 ?>
 
 });
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

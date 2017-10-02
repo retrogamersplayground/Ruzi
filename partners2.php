@@ -1,4 +1,4 @@
-<?php include_once("admin/mysqli_connection.php");?>
+<?php include_once("driver_system/mysqli_connection.php");?>
 
 
 
@@ -76,8 +76,6 @@ a:visited {color: #212121; text-decoration: none; }
 
 <h3>Click on the image to navigate to Partner's Webpage</h3>
 
-<?php include_once("sweetBeansLibertyKy.php");?>
-  <hr>
 
 
 
@@ -121,16 +119,7 @@ Online Order:<?php echo $row["oorder"];?></br>
   </br>
   <hr>
  <h2>Partners in Stanford Kentucky</h2>
-<?php include_once("bluebirdStanfordKy.php");?>
- </br>
- <hr>
- <?php include_once("kentuckyDepotStanfordKy.php");?>
- </br>
- </hr>
- <?php include_once("chinaBuffetStanfordKy.php");?>
- </br>
- </hr>
- 
+
  
  
 <div class="container">
